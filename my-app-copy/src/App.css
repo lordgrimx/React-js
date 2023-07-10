@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    list-style: none;
+  }
+  .navbar-item{
+    margin-right: 60px;
+    
+  }
+  .img-css{
+    width: 60px;
+  }
+  
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-css{
+    box-shadow: 2px 2px 2px gray;
+  }

@@ -1,0 +1,144 @@
+/* HTML Start */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #282D35;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HTML End */
+
+/* Header Start */
+
+
+.header--box{
+    background-color: aliceblue;
+    width: 275px;
+    margin: 0 65px;
+    border-radius: 25px;
+    height: 280px;
+}
+
+.header--box .header--profile{
+    width: 275px;
+    max-height: 300px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+/* Header End */
+
+/* MainContent Start */
+
+.maincontent--container{
+    background-color: #0a0f1b;
+    width: 275px;
+    margin:0 65px;
+}
+
+.maincontent--container .maincontent--topics{
+    color: white;
+    padding: 25px;
+}
+
+.maincontent--container .maincontent--topics > h3{
+    padding: 5px;
+    font-size: 36px;
+    letter-spacing: -0.05cm;
+}
+
+.maincontent--container .maincontent--topics >p{
+    padding: 5px;
+}
+
+.maincontent--container .maincontent--buttons{
+    margin-bottom: 20px;
+}
+
+.maincontent--container .maincontent--buttons .email{
+    margin: 0 10px;
+    padding: 5px 30px;
+    border: none;
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.maincontent--container .maincontent--buttons .linkedin{
+    margin: 0 10px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #0A66C2;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+}
+
+.maincontent--container .maincontent--infos{
+    margin-left: 15px;
+}
+
+.maincontent--container .maincontent--infos > h3{
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    max-height: 35px;
+}
+.maincontent--container .maincontent--infos > p{
+    text-align: left;
+    font-size: 12.5px;
+    font-style: oblique;
+    letter-spacing: -0.015cm;
+    color: white;
+}
+
+
+/* MainContent End */
+
+/* Footer Start */
+
+.footer--container{
+    background-color: rgba(13, 16, 34, 0.827);
+    width: 275px;
+    padding: 10px;
+    margin: 0 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--container > button{
+    border: none;
+    background-color: gray;
+    margin: 0 10px;
+    color: black;
+    font-size: 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+/* Footer End */
+
+/* App Start */
+
+.app--container{
+    width: 400px;
+    text-align: center
+}
+
+/* App End */
